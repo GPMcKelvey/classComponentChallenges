@@ -6,8 +6,7 @@ class ToDoList extends Component {
         super(props);
         this.state = {
             list: [],
-            task: '',
-        
+            task: ''
         } 
         this.addTask = this.addTask.bind(this);
     }

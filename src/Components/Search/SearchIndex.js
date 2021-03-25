@@ -9,6 +9,7 @@ class SearchIndex extends React.Component {
      search: ''
    }
   }
+  
   searchFunction (event) {
     const input = event.target.value;
     this.setState({
