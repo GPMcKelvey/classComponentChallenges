@@ -15,7 +15,7 @@ class SearchIndex extends React.Component {
       search: input
     });
     
-    console.log(this.state.search);
+    //console.log(this.state.search);
   }
 
  render() {
