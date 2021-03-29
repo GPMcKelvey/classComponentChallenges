@@ -23,9 +23,10 @@ export default class DogIndex extends Component {
         return (
             <div style={{padding: "2em"}}>
                 <h1>Random Dog Photo</h1>
-                <img src={this.state.img}/>
-                <br/>
                 <button onClick={(event) => this.componentDidMount(event)}>new dog</button>
+                <div>
+                <img src={this.state.img}/>
+                </div>
             </div>
         )
     }

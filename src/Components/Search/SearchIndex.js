@@ -28,7 +28,7 @@ class SearchIndex extends React.Component {
          {this.state.things.filter(word => word.includes(this.state.search)).map(filterResult => (
             <li>{filterResult}</li>
           ))}
-  </ul>
+        </ul>
      </div>
     );
  }

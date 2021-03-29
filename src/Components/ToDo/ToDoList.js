@@ -46,6 +46,7 @@ class ToDoList extends Component {
                     <input ref={(a) => this._inputElement = a} type='text' placeholder='Enter Task' />
                     <Button type='submit'>Add</Button>
                 </form>
+                <h3>Click task to complete and remove it from list.</h3>
                 <ul>
                     {
                         this.state.list.map(results => (
@@ -59,3 +60,4 @@ class ToDoList extends Component {
 }
 
 export default ToDoList;
+
